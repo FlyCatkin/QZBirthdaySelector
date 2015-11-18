@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C588AA991BFC26CF006A6A99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C588AA981BFC26CF006A6A99 /* main.m */; };
+		C588AA9C1BFC26CF006A6A99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C588AA9B1BFC26CF006A6A99 /* AppDelegate.m */; };
+		C588AA9F1BFC26CF006A6A99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C588AA9E1BFC26CF006A6A99 /* ViewController.m */; };
+		C588AAA21BFC26CF006A6A99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C588AAA01BFC26CF006A6A99 /* Main.storyboard */; };
+		C588AAA41BFC26CF006A6A99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C588AAA31BFC26CF006A6A99 /* Assets.xcassets */; };
+		C588AAA71BFC26CF006A6A99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C588AAA51BFC26CF006A6A99 /* LaunchScreen.storyboard */; };
+		C588AAB21BFC26D0006A6A99 /* QZBirthdaySelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C588AAB11BFC26D0006A6A99 /* QZBirthdaySelectorTests.m */; };
+		C588AABD1BFC26D0006A6A99 /* QZBirthdaySelectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C588AABC1BFC26D0006A6A99 /* QZBirthdaySelectorUITests.m */; };
+		C588AACD1BFC2762006A6A99 /* QZDateSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C588AACC1BFC2762006A6A99 /* QZDateSelectorView.m */; };
+		C588AAD01BFC2CF3006A6A99 /* QZDateSelectorToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C588AACF1BFC2CF3006A6A99 /* QZDateSelectorToolBarView.m */; };
+		C588AAD31BFC2F55006A6A99 /* QZDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C588AAD21BFC2F55006A6A99 /* QZDatePickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C588AAAE1BFC26D0006A6A99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C588AA8C1BFC26CF006A6A99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C588AA931BFC26CF006A6A99;
+			remoteInfo = QZBirthdaySelector;
+		};
+		C588AAB91BFC26D0006A6A99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C588AA8C1BFC26CF006A6A99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C588AA931BFC26CF006A6A99;
+			remoteInfo = QZBirthdaySelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C588AA941BFC26CF006A6A99 /* QZBirthdaySelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QZBirthdaySelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C588AA981BFC26CF006A6A99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C588AA9A1BFC26CF006A6A99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C588AA9B1BFC26CF006A6A99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C588AA9D1BFC26CF006A6A99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C588AA9E1BFC26CF006A6A99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C588AAA11BFC26CF006A6A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C588AAA31BFC26CF006A6A99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C588AAA61BFC26CF006A6A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C588AAA81BFC26CF006A6A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C588AAAD1BFC26D0006A6A99 /* QZBirthdaySelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QZBirthdaySelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C588AAB11BFC26D0006A6A99 /* QZBirthdaySelectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZBirthdaySelectorTests.m; sourceTree = "<group>"; };
+		C588AAB31BFC26D0006A6A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C588AAB81BFC26D0006A6A99 /* QZBirthdaySelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QZBirthdaySelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C588AABC1BFC26D0006A6A99 /* QZBirthdaySelectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZBirthdaySelectorUITests.m; sourceTree = "<group>"; };
+		C588AABE1BFC26D0006A6A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C588AACB1BFC2762006A6A99 /* QZDateSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZDateSelectorView.h; sourceTree = "<group>"; };
+		C588AACC1BFC2762006A6A99 /* QZDateSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZDateSelectorView.m; sourceTree = "<group>"; };
+		C588AACE1BFC2CF3006A6A99 /* QZDateSelectorToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZDateSelectorToolBarView.h; sourceTree = "<group>"; };
+		C588AACF1BFC2CF3006A6A99 /* QZDateSelectorToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZDateSelectorToolBarView.m; sourceTree = "<group>"; };
+		C588AAD11BFC2F55006A6A99 /* QZDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZDatePickerView.h; sourceTree = "<group>"; };
+		C588AAD21BFC2F55006A6A99 /* QZDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZDatePickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C588AA911BFC26CF006A6A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C588AAAA1BFC26D0006A6A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C588AAB51BFC26D0006A6A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C588AA8B1BFC26CF006A6A99 = {
+			isa = PBXGroup;
+			children = (
+				C588AA961BFC26CF006A6A99 /* QZBirthdaySelector */,
+				C588AAB01BFC26D0006A6A99 /* QZBirthdaySelectorTests */,
+				C588AABB1BFC26D0006A6A99 /* QZBirthdaySelectorUITests */,
+				C588AA951BFC26CF006A6A99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C588AA951BFC26CF006A6A99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C588AA941BFC26CF006A6A99 /* QZBirthdaySelector.app */,
+				C588AAAD1BFC26D0006A6A99 /* QZBirthdaySelectorTests.xctest */,
+				C588AAB81BFC26D0006A6A99 /* QZBirthdaySelectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C588AA961BFC26CF006A6A99 /* QZBirthdaySelector */ = {
+			isa = PBXGroup;
+			children = (
+				C588AACA1BFC270C006A6A99 /* DateSelector */,
+				C588AA9A1BFC26CF006A6A99 /* AppDelegate.h */,
+				C588AA9B1BFC26CF006A6A99 /* AppDelegate.m */,
+				C588AA9D1BFC26CF006A6A99 /* ViewController.h */,
+				C588AA9E1BFC26CF006A6A99 /* ViewController.m */,
+				C588AAA01BFC26CF006A6A99 /* Main.storyboard */,
+				C588AAA31BFC26CF006A6A99 /* Assets.xcassets */,
+				C588AAA51BFC26CF006A6A99 /* LaunchScreen.storyboard */,
+				C588AAA81BFC26CF006A6A99 /* Info.plist */,
+				C588AA971BFC26CF006A6A99 /* Supporting Files */,
+			);
+			path = QZBirthdaySelector;
+			sourceTree = "<group>";
+		};
+		C588AA971BFC26CF006A6A99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C588AA981BFC26CF006A6A99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C588AAB01BFC26D0006A6A99 /* QZBirthdaySelectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C588AAB11BFC26D0006A6A99 /* QZBirthdaySelectorTests.m */,
+				C588AAB31BFC26D0006A6A99 /* Info.plist */,
+			);
+			path = QZBirthdaySelectorTests;
+			sourceTree = "<group>";
+		};
+		C588AABB1BFC26D0006A6A99 /* QZBirthdaySelectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C588AABC1BFC26D0006A6A99 /* QZBirthdaySelectorUITests.m */,
+				C588AABE1BFC26D0006A6A99 /* Info.plist */,
+			);
+			path = QZBirthdaySelectorUITests;
+			sourceTree = "<group>";
+		};
+		C588AACA1BFC270C006A6A99 /* DateSelector */ = {
+			isa = PBXGroup;
+			children = (
+				C588AACB1BFC2762006A6A99 /* QZDateSelectorView.h */,
+				C588AACC1BFC2762006A6A99 /* QZDateSelectorView.m */,
+				C588AACE1BFC2CF3006A6A99 /* QZDateSelectorToolBarView.h */,
+				C588AACF1BFC2CF3006A6A99 /* QZDateSelectorToolBarView.m */,
+				C588AAD11BFC2F55006A6A99 /* QZDatePickerView.h */,
+				C588AAD21BFC2F55006A6A99 /* QZDatePickerView.m */,
+			);
+			path = DateSelector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C588AA931BFC26CF006A6A99 /* QZBirthdaySelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C588AAC11BFC26D0006A6A99 /* Build configuration list for PBXNativeTarget "QZBirthdaySelector" */;
+			buildPhases = (
+				C588AA901BFC26CF006A6A99 /* Sources */,
+				C588AA911BFC26CF006A6A99 /* Frameworks */,
+				C588AA921BFC26CF006A6A99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QZBirthdaySelector;
+			productName = QZBirthdaySelector;
+			productReference = C588AA941BFC26CF006A6A99 /* QZBirthdaySelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C588AAAC1BFC26D0006A6A99 /* QZBirthdaySelectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C588AAC41BFC26D0006A6A99 /* Build configuration list for PBXNativeTarget "QZBirthdaySelectorTests" */;
+			buildPhases = (
+				C588AAA91BFC26D0006A6A99 /* Sources */,
+				C588AAAA1BFC26D0006A6A99 /* Frameworks */,
+				C588AAAB1BFC26D0006A6A99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C588AAAF1BFC26D0006A6A99 /* PBXTargetDependency */,
+			);
+			name = QZBirthdaySelectorTests;
+			productName = QZBirthdaySelectorTests;
+			productReference = C588AAAD1BFC26D0006A6A99 /* QZBirthdaySelectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C588AAB71BFC26D0006A6A99 /* QZBirthdaySelectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C588AAC71BFC26D0006A6A99 /* Build configuration list for PBXNativeTarget "QZBirthdaySelectorUITests" */;
+			buildPhases = (
+				C588AAB41BFC26D0006A6A99 /* Sources */,
+				C588AAB51BFC26D0006A6A99 /* Frameworks */,
+				C588AAB61BFC26D0006A6A99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C588AABA1BFC26D0006A6A99 /* PBXTargetDependency */,
+			);
+			name = QZBirthdaySelectorUITests;
+			productName = QZBirthdaySelectorUITests;
+			productReference = C588AAB81BFC26D0006A6A99 /* QZBirthdaySelectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C588AA8C1BFC26CF006A6A99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = booksky;
+				TargetAttributes = {
+					C588AA931BFC26CF006A6A99 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					C588AAAC1BFC26D0006A6A99 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C588AA931BFC26CF006A6A99;
+					};
+					C588AAB71BFC26D0006A6A99 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C588AA931BFC26CF006A6A99;
+					};
+				};
+			};
+			buildConfigurationList = C588AA8F1BFC26CF006A6A99 /* Build configuration list for PBXProject "QZBirthdaySelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C588AA8B1BFC26CF006A6A99;
+			productRefGroup = C588AA951BFC26CF006A6A99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C588AA931BFC26CF006A6A99 /* QZBirthdaySelector */,
+				C588AAAC1BFC26D0006A6A99 /* QZBirthdaySelectorTests */,
+				C588AAB71BFC26D0006A6A99 /* QZBirthdaySelectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C588AA921BFC26CF006A6A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C588AAA71BFC26CF006A6A99 /* LaunchScreen.storyboard in Resources */,
+				C588AAA41BFC26CF006A6A99 /* Assets.xcassets in Resources */,
+				C588AAA21BFC26CF006A6A99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C588AAAB1BFC26D0006A6A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C588AAB61BFC26D0006A6A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C588AA901BFC26CF006A6A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C588AACD1BFC2762006A6A99 /* QZDateSelectorView.m in Sources */,
+				C588AA9F1BFC26CF006A6A99 /* ViewController.m in Sources */,
+				C588AA9C1BFC26CF006A6A99 /* AppDelegate.m in Sources */,
+				C588AAD01BFC2CF3006A6A99 /* QZDateSelectorToolBarView.m in Sources */,
+				C588AA991BFC26CF006A6A99 /* main.m in Sources */,
+				C588AAD31BFC2F55006A6A99 /* QZDatePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C588AAA91BFC26D0006A6A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C588AAB21BFC26D0006A6A99 /* QZBirthdaySelectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C588AAB41BFC26D0006A6A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C588AABD1BFC26D0006A6A99 /* QZBirthdaySelectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C588AAAF1BFC26D0006A6A99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C588AA931BFC26CF006A6A99 /* QZBirthdaySelector */;
+			targetProxy = C588AAAE1BFC26D0006A6A99 /* PBXContainerItemProxy */;
+		};
+		C588AABA1BFC26D0006A6A99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C588AA931BFC26CF006A6A99 /* QZBirthdaySelector */;
+			targetProxy = C588AAB91BFC26D0006A6A99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C588AAA01BFC26CF006A6A99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C588AAA11BFC26CF006A6A99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C588AAA51BFC26CF006A6A99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C588AAA61BFC26CF006A6A99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C588AABF1BFC26D0006A6A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C588AAC01BFC26D0006A6A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C588AAC21BFC26D0006A6A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QZBirthdaySelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.booksky.QZBirthdaySelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C588AAC31BFC26D0006A6A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QZBirthdaySelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.booksky.QZBirthdaySelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C588AAC51BFC26D0006A6A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QZBirthdaySelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.booksky.QZBirthdaySelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QZBirthdaySelector.app/QZBirthdaySelector";
+			};
+			name = Debug;
+		};
+		C588AAC61BFC26D0006A6A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QZBirthdaySelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.booksky.QZBirthdaySelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QZBirthdaySelector.app/QZBirthdaySelector";
+			};
+			name = Release;
+		};
+		C588AAC81BFC26D0006A6A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QZBirthdaySelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.booksky.QZBirthdaySelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QZBirthdaySelector;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C588AAC91BFC26D0006A6A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QZBirthdaySelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.booksky.QZBirthdaySelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QZBirthdaySelector;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C588AA8F1BFC26CF006A6A99 /* Build configuration list for PBXProject "QZBirthdaySelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C588AABF1BFC26D0006A6A99 /* Debug */,
+				C588AAC01BFC26D0006A6A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C588AAC11BFC26D0006A6A99 /* Build configuration list for PBXNativeTarget "QZBirthdaySelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C588AAC21BFC26D0006A6A99 /* Debug */,
+				C588AAC31BFC26D0006A6A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C588AAC41BFC26D0006A6A99 /* Build configuration list for PBXNativeTarget "QZBirthdaySelectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C588AAC51BFC26D0006A6A99 /* Debug */,
+				C588AAC61BFC26D0006A6A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C588AAC71BFC26D0006A6A99 /* Build configuration list for PBXNativeTarget "QZBirthdaySelectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C588AAC81BFC26D0006A6A99 /* Debug */,
+				C588AAC91BFC26D0006A6A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C588AA8C1BFC26CF006A6A99 /* Project object */;
+}
